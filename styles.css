@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2F2F2F;
+    font-family: 'Roboto';
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #FDEC51;
+    margin-bottom: 40px;
+}
+
+.hed{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    
+}
+
+.hed img{
+    margin-top: 32px;
+    cursor: pointer;
+    margin-left: 180px;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 450px;
+    background-color: #fff;
+    margin-left: 50px;
+    padding: 25px;
+    box-shadow: 1px 1px 10px;
+    margin-top: 30px;
+}
+
+.register input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    padding-left: 0;
+}
+.register textarea{
+    width: 100%;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;  
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+form{
+    margin-top: 50px;
+}
+
+.register img{
+    position:absolute;
+    top: 55px;
+    border-radius: 50%;
+
+}
+.register label{
+    color: gray;
+}
+.name{
+    display: flex;
+}
+.name input{
+    padding-left: 0;
+}
+.button{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 565px;
+    left: 370px;
+}
+
+.button button{
+    border: none;
+    background-color: #FDEC51;
+    margin-right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
